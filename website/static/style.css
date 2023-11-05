@@ -5,62 +5,87 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    background: black;
-    padding: 0 10px;
+    background-image: url("back1.jpg");
+    background-size: cover;
+    backdrop-filter: blur(5px);
 }
+.heading{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
+    background-color: black;
+    text-align: center;
+    min-height: 20vh;
+ }
+ 
+ .heading h3{
+    font-size: 4rem;
+    color:white;
+    text-transform: uppercase;
+ }
+ 
+
 .wrapper{
     max-width: 500px;
     width: 100%;
     background: #fff;
     margin: 20px auto;
+    margin-bottom: 0px;
     box-shadow: 2px 2px 4px rgba(0,0,0,0.125);
     padding: 30px;
+    
 }
   
-.wrapper .title{
-    font-size: 24px;
-    font-weight: 700;
-    margin-bottom: 25px;
-    color: black;
-    text-transform: uppercase;
-    text-align: center;
-}
   
 .wrapper .form{
     width: 100%;
 }
   
 .wrapper .form .inputfield{
-    margin-bottom: 15px;
-    display: flex;
     align-items: center;
+    display:flex;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 15px;
 }
   
 .wrapper .form .inputfield label{
      width: 200px;
      color: black;
-     margin-right: 10px;
+     margin-right: 20px;
     font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    
 }
 
 .check{
-    margin-bottom: 15px;
+    margin-top: 25px;
+    margin-bottom: 10px;
     display: flex;
     justify-content: space-around;
 }
 
 .check label{
+    font-size: 16px;
+    font-weight: 600;
     padding: 0px 10px 0px 0px;
 }
 
-.wrapper .form .inputfield .input{
-    width: 100%;
-    outline: none;
-    border: 1px solid #d5dbd9;
-    font-size: 15px;
-    padding: 8px 10px;
-    border-radius: 3px;
+.wrapper .form .inputfield .input{    
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 500;
+    display:flex;
+    margin-bottom: 20px;
 }
+
+
 
 .wrapper .form .inputfield .custom_select{
     position: relative;
@@ -79,7 +104,8 @@ body{
     height: 100%;
     border: 0px;
     padding: 8px 10px;
-    font-size: 15px;
+    font-size: 16px;
+    font-weight: 500;
     border: 1px solid #d5dbd9;
     border-radius: 3px;
 }
@@ -89,18 +115,20 @@ body{
     padding: 8px 10px;
     font-size: 15px; 
     border: 0px;
-    background:  black;
+    background-color: #4CAF50;
     color: #fff;
     cursor: pointer;
     border-radius: 3px;
     outline: none;
 }
+.wrapper .form .inputfield .btn:hover {
+    background-color: #3e8e41;
+  }
   
 .result p{
     text-align: center;
-    color: blue;
+    color: red;
     font-size: 18px;
     font-weight: bold;
+    font-weight: 600;
 }
-
-  

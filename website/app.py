@@ -63,6 +63,7 @@ def index():
 
         pred=prediction(feature_list)*350
         pred=pred[0]
+        pred = round(pred, 2)
 
         # print("Prediction value=")
         # print(pred)
