@@ -1,3 +1,26 @@
-website/env/
+# Ignore Jupyter Notebook checkpoints
+model/.ipynb_checkpoints/
+
+# Ignore virtual environment directories
 model/env/
-model/.ipynb_checkpoints
+website/env/
+
+# Ignore data files (assuming you don't want to track them)
+model/laptop_price.csv
+
+
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore log files and temporary files
+*.log
+*.tmp
+
+# Ignore other unnecessary files
+.idea/
+.vscode/
