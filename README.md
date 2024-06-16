@@ -6,10 +6,11 @@ Technologies<br>---------------<br>
 Frontend - HTML, CSS <br>
 Backend - Python
 
-This is the Full Demo of the project
+<h2>This is the Full Demo of the project</h2><br><br>
 
 ![Laptop Price Predict ML](https://github.com/kusha2000/Laptop-Price-Predict-with-ML/assets/127003267/ba93b76b-8bca-465d-a5b4-17367998ff9e)
 
-This is the screenshot of my web app
+<br><br>
+<h2>This is the screenshots of the system</h2><br><br>
 
 ![Screenshot (381)](https://github.com/kusha2000/Laptop-Price-Predict-with-ML/assets/127003267/e57accfb-63db-4a0e-a99a-93bbcaa565f0)
