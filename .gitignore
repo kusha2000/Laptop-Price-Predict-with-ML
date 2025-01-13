@@ -24,3 +24,5 @@ Thumbs.db
 # Ignore other unnecessary files
 .idea/
 .vscode/
+
+/Demo
